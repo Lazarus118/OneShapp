@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <TextView
+        android:textColor="#666666"
+        android:id="@+id/txt1"
+        android:textStyle="italic|bold"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Price of Item e.g. JA $1000.000" />
+
+    <EditText
+        android:textColorHint="#666666"
+        android:layout_below="@+id/txt1"
+        android:id="@+id/add_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="$0.00" />
+
+    <TextView
+        android:textColor="#666666"
+        android:id="@+id/txt2"
+        android:layout_below="@+id/add_price"
+        android:textStyle="italic|bold"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description of Item e.g. Homemade Blouse" />
+
+
+    <EditText
+        android:textColorHint="#666666"
+        android:layout_below="@+id/txt2"
+        android:id="@+id/add_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Description"
+        android:inputType="text" />
+
+    <RelativeLayout
+        android:paddingTop="50dp"
+        android:layout_below="@+id/txt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="#666666"
+            android:layout_toRightOf="@+id/add_item_img"
+            android:id="@+id/txt3"
+            android:textStyle="italic|bold"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Choose an Image to best represent your item:"
+            android:layout_toEndOf="@+id/add_item_img" />
+
+        <TextView
+            android:textColor="#666666"
+            android:id="@+id/add_item_img"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:text="0"
+            android:gravity="center"
+            android:textSize="30sp"/>
+
+        <SeekBar
+            android:padding="10dp"
+            android:layout_below="@+id/add_item_img"
+            android:id="@+id/seekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="4"
+            android:progress="0" />
+
+        <Switch
+            android:id="@+id/switch1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="In Stock"
+            android:textColor="#666"
+            android:textSize="20sp"
+            android:textStyle="italic|bold"
+            android:padding="5dp"
+            android:layout_below="@id/seekBar"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

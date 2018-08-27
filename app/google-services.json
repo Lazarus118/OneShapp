@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "157316344039",
+    "firebase_url": "https://one-shapp.firebaseio.com",
+    "project_id": "one-shapp",
+    "storage_bucket": "one-shapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:157316344039:android:f920b5cfeffbc08d",
+        "android_client_info": {
+          "package_name": "co.aulatech.oneshapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "157316344039-g5c5ah28dfjir0i4hrsv67r8r94g7q3j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABobT8_DR1INYaGSBvfwLKWQCO-NTpGH4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

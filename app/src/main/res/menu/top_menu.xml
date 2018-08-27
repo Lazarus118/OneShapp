@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <!-- Add Item -->
+    <item
+        android:id="@+id/add_item"
+        android:title="Add Item"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_add" />
+
+    <!-- Refresh -->
+    <item
+        android:id="@+id/refresh"
+        android:title="Refresh"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_refresh" />
+
+    <!-- Logout -->
+    <item android:id="@+id/log_out"
+        android:title="Log out"
+        app:showAsAction="never"/>
+
+</menu>
